@@ -1,0 +1,18 @@
+.jadlog-tracking-code label {
+	display: block;
+}
+
+.jadlog-tracking-code input {
+	width: 225px;
+}
+
+#poststuff .jadlog-tracking-code button {
+	height: 24px;
+	line-height: 1;
+	padding: 5px;
+	width: 24px;
+}
+
+    .jadlog-tracking-code button::before {
+        font-family: "Dashicons";
+    }

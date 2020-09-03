@@ -1,0 +1,185 @@
+# Copyright (C) 2020 Alysson Ailton da Silva
+# This file is distributed under the same license as the Jadlog Tracking Code for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jadlog Tracking Code for WooCommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"jadlog-tracking\n"
+"POT-Creation-Date: 2020-02-18 17:45:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-02-18 17:49+0000\n"
+"Last-Translator: Alysson Ailton da Silva <alysson.ailton@hotmail.com>\n"
+"Language-Team: Português do Brasil\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Version: 2.2.0; wp-4.9.9"
+
+#: includes/class-wc-jadlog-tracking-email.php:26
+msgid "Jadlog Tracking Code"
+msgstr "Código de rastreio da Jadlog"
+
+#: includes/class-wc-jadlog-tracking-email.php:29
+msgid "This email is sent when configured a tracking code within an order."
+msgstr ""
+"Este e-mail é enviado quando configurado um código de rastreamento dentro de "
+"um pedido."
+
+#: includes/class-wc-jadlog-tracking-email.php:32
+msgid "Your order has been sent"
+msgstr "O seu pedido foi enviado"
+
+#: includes/class-wc-jadlog-tracking-email.php:33
+msgid "[{site_title}] Your order {order_number} has been sent by Jadlog"
+msgstr "[{site_title}] O seu pedido {order_number} foi enviado pela Jadlog"
+
+#: includes/class-wc-jadlog-tracking-email.php:35
+msgid "Hi there. Your recent order on {site_title} has been sent by Jadlog."
+msgstr "Olá. Seu pedido recente em {site_title} foi enviado pela Jadlog."
+
+#: includes/class-wc-jadlog-tracking-email.php:37
+msgid ""
+"To track your delivery, use the following the tracking code: {tracking_code}"
+msgstr ""
+"Para acompanhar a entrega, use o seguinte código(s) de rastreamento: "
+"{tracking_code}."
+
+#: includes/class-wc-jadlog-tracking-email.php:39
+msgid ""
+"The delivery service is the responsibility of the Jadlog, but if you have "
+"any questions, please contact us."
+msgstr ""
+"O serviço de entrega é de responsabilidade da Jadlog, mas se você tiver "
+"alguma dúvida, entre em contato conosco."
+
+#: includes/class-wc-jadlog-tracking-email.php:115
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/class-wc-jadlog-tracking-email.php:117
+msgid "Enable this email notification"
+msgstr "Habilitar este e-mail de notificação"
+
+#: includes/class-wc-jadlog-tracking-email.php:121
+msgid "Subject"
+msgstr "Assunto"
+
+#: includes/class-wc-jadlog-tracking-email.php:123
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+"Isto controla a linha de assunto do e-mail. Deixe em branco para utilizar o "
+"assunto padrão: <code>%s</code>."
+
+#: includes/class-wc-jadlog-tracking-email.php:129
+msgid "Email Heading"
+msgstr "Cabeçalho do e-mail"
+
+#: includes/class-wc-jadlog-tracking-email.php:131
+msgid ""
+"This controls the main heading contained within the email. Leave blank to "
+"use the default heading: <code>%s</code>."
+msgstr ""
+"Isto controla o cabeçalho do conteúdo dentro do e-mail de notificação. Deixe "
+"em branco para utilizar o cabeçalho padrão: <code>%s</code>."
+
+#: includes/class-wc-jadlog-tracking-email.php:137
+msgid "Email Content"
+msgstr "Conteúdo do e-mail"
+
+#: includes/class-wc-jadlog-tracking-email.php:139
+msgid ""
+"This controls the initial content of the email. Leave blank to use the "
+"default content: <code>%s</code>."
+msgstr ""
+"Isto controla o conteúdo inicial do e-mail. Deixe em branco para utilizar o "
+"conteúdo padrão: <code>%s</code>."
+
+#: includes/class-wc-jadlog-tracking-email.php:145
+msgid "Email type"
+msgstr "Tipo do e-mail"
+
+#: includes/class-wc-jadlog-tracking-email.php:147
+msgid "Choose which format of email to send."
+msgstr "Escolha qual formato de email será enviado."
+
+#: includes/class-wc-jadlog-tracking-email.php:234
+#: includes/class-wc-jadlog-tracking-email.php:250
+msgid "Plain text"
+msgstr "Texto simples"
+
+#: includes/class-wc-jadlog-tracking-email.php:237
+#: includes/class-wc-jadlog-tracking-email.php:253
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/class-wc-jadlog-tracking-email.php:238
+#: includes/class-wc-jadlog-tracking-email.php:254
+msgid "Multipart"
+msgstr "Multipart (MIME)"
+
+#: templates/emails/jadlog-tracking-code.php:19
+#: templates/emails/plain/jadlog-tracking-code.php:18
+msgid "For your reference, your order details are shown below."
+msgstr "Para sua referência, os dados do seu pedido são mostrados a seguir."
+
+#: woocommerce-jadlog-tracking.php:83
+msgid "Add tracking code"
+msgstr "Adicionar código de rastreio"
+
+#: woocommerce-jadlog-tracking.php:89
+msgid "Edit tracking code"
+msgstr "Editar código de rastreio"
+
+#. translators: %s: tracking code
+#: woocommerce-jadlog-tracking.php:169
+msgid "Removed Jadlog tracking code: %s"
+msgstr "Removido código de rastreio da Jadlog: %s"
+
+#: woocommerce-jadlog-tracking.php:171
+msgid "Added Jadlog tracking code: %s"
+msgstr "Adicionado código de rastreio da Jadlog: %s"
+
+#: woocommerce-jadlog-tracking.php:174
+msgid "Updated Jadlog tracking code to: %s"
+msgstr "Atualizado código de rastreio da Jadlog para: %s"
+
+#: woocommerce-jadlog-tracking.php:227
+msgid "Jadlog delivery tracking"
+msgstr "Acompanhamento da entrega na Jadlog"
+
+#: woocommerce-jadlog-tracking.php:230
+msgid "Tracking code:"
+msgstr "Código de rastreamento:"
+
+#: woocommerce-jadlog-tracking.php:240
+msgid "Query on Jadlog"
+msgstr "Consultar na Jadlog"
+
+#. Plugin Name of the plugin/theme
+msgid "Jadlog Tracking Code for WooCommerce"
+msgstr "WooCommerce Código de Rastreio Jadlog"
+
+#. Description of the plugin/theme
+msgid "Adds Jadlog tracking to your WooCommerce store"
+msgstr "Adiciona o código de rastreio da Jadlog à sua loja WooCommerce"
+
+#. Author of the plugin/theme
+msgid "Alysson Ailton da Silva"
+msgstr "Alysson Ailton da Silva"
+
+#. Author URI of the plugin/theme
+msgid "https://bitbucket.org/mostardals/"
+msgstr "https://bitbucket.org/mostardals/"
